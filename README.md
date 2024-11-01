@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Добро пожаловать в проект! Этот проект создан с использованием Create React App и предназначен для демонстрации информации о странах.
+# Установка
+Чтобы начать работать с проектом, выполните следующие шаги:
+Склонируйте репозиторий:
+git clone https://github.com/nasti02/praktika.git
+Перейдите в папку проекта:
+cd praktika
+Установите все необходимые зависимости:
+npm install
 
 ## Available Scripts
 
