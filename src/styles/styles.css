@@ -1,0 +1,125 @@
+/* Общие стили для обеих страниц */
+* {
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
+}
+body {
+    background-color: #d4eaf1; /* Персиковый цвет фона для всей страницы */
+    margin: 0; /* Убираем отступы по умолчанию */
+}
+.container {
+    padding: 40px; /* Увеличенные отступы для большей внутренней области */
+    max-width: 1500px; /* Увеличенная максимальная ширина */
+    margin: auto;
+    background-color: #f1dcec; /* Персиковый цвет фона */
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Увеличенная тень */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    align-items: center; /* Вертикальное центрирование */
+    justify-content: center; /* Центрируем содержимое */
+}
+
+.header h1 {
+    font-size: 3.5rem; /* Увеличенный размер шрифта */
+    color: #5E35B1;
+    margin: 10px 0 15px;
+}
+
+.header-image {
+    width: 80px; /* Устанавливаем фиксированную ширину */
+    height: auto; /* Сохраняем пропорции */
+    margin-left: 20px; /* Отступ слева от заголовка */
+    border-radius: 8px; /* Закругленные углы */
+}
+
+.nav-link {
+    display: flex; /* Используем flexbox для размещения текста и стрелочки */
+    align-items: center; /* Центрируем по вертикали */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 1.7rem; /* Размер шрифта */
+    color: #6200EA; /* Цвет текста */
+    padding: 5px 10px; /* Уменьшенные отступы */
+    transition: color 0.3s; /* Анимация цвета */
+}
+
+.nav-link:hover {
+    color: #4A148C; /* Темный цвет при наведении */
+}
+
+.arrow {
+    margin-right: 5px; /* Отступ между стрелочкой и текстом */
+    font-size: 1.5rem; /* Размер шрифта для стрелочки */
+}
+
+main {
+    padding: 30px; /* Увеличены отступы */
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5rem; /* Увеличенный размер шрифта для h2 */
+    margin-top: 20px;
+    color: #1976D2;
+}
+
+h3 {
+    font-size: 2rem; /* Увеличенный размер шрифта для h3 */
+    margin-top: 15px;
+    color: #1976D2;
+}
+
+p {
+    font-size: 1.5rem; /* Увеличенный размер шрифта для текста */
+    line-height: 1.6;
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 8px 0;
+    color: #555;
+    border-bottom: 1px solid #E0E0E0; /* Линия-разделитель */
+    padding: 10px 0; /* Отступ сверху и снизу */
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px; /* Увеличенные отступы */
+    font-size: 1.5rem; /* Увеличенный размер шрифта */
+    color: white;
+    background-color: #6200EA; /* Темно-фиолетовый фон для кнопок */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #3700B3; /* Более темный цвет при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}

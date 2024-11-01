@@ -1,0 +1,77 @@
+.countries-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Сетка с карточками */
+    gap: 16px; /* Отступы между карточками */
+    padding: 16px; /* Внутренние отступы контейнера */
+}
+
+.country-card {
+    background-color: #ffffff; /* Цвет фона карточки */
+    border: 1px solid #e0e0e0; /* Рамка карточки */
+    border-radius: 8px; /* Закругленные углы */
+    padding: 16px; /* Внутренние отступы */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    transition: transform 0.2s, box-shadow 0.2s; /* Анимация при наведении */
+    text-align: center; /* Центрируем текст */
+}
+
+.country-card:hover {
+    transform: translateY(-4px); /* Подъем карточки при наведении */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Увеличенная тень при наведении */
+}
+
+.country-card h4 {
+    font-size: 1.5em; /* Размер шрифта заголовка */
+    margin: 0 0 8px 0; /* Отступы */
+    color: #333; /* Цвет заголовка */
+}
+
+.country-card p {
+    font-size: 1em; /* Размер шрифта описания */
+    margin: 4px 0; /* Отступы */
+    color: #666; /* Цвет текста */
+}
+
+.country-card img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота изображения */
+    border-radius: 4px; /* Закругленные углы изображения */
+    margin: 8px 0; /* Отступы сверху и снизу */
+}
+
+.country-card a {
+    display: inline-block; /* Отображение ссылки как блочный элемент */
+    margin-top: 12px; /* Отступ сверху */
+    color: #007bff; /* Цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный текст */
+}
+
+.country-card a:hover {
+    text-decoration: underline; /* Подчеркивание ссылки при наведении */
+}
+select {
+    background-color: #f0f0f0; /* Светлый фон */
+    border: 2px solid #007bff; /* Синий контур */
+    border-radius: 5px; /* Скругление углов */
+    color: #333; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    padding: 10px 15px; /* Внутренние отступы */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    transition: all 0.3s ease; /* Плавный переход при наведении */
+}
+
+select:hover {
+    background-color: #e9ecef; /* Светло-серый фон при наведении */
+    border-color: #0056b3; /* Темно-синий контур при наведении */
+    cursor: pointer; /* Изменение курсора на указатель */
+}
+
+select:focus {
+    outline: none; /* Убираем стандартный контур при фокусировке */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Добавление тени при фокусировке */
+}
+label {
+    font-size: 1.5rem; /* Размер шрифта для меток */
+    margin-right: 10px; /* Отступ справа от метки */
+}
